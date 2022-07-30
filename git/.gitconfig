@@ -1,0 +1,11 @@
+[user]
+	email = ...
+	name = ...
+
+[fetch]
+	prune = true
+
+[alias]
+	st = !git status
+	poh = !git push orgin head
+	ca = !git commit --amend
