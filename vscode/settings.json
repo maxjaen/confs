@@ -1,0 +1,10 @@
+{
+    /* Disables all kind of telemetry data */
+    "telemetry.telemetryLevel": "off",
+    /* Editor */
+    "editor.fontFamily": "'DeJaVu, 'monospace', monospace",
+    "editor.fontSize": 16,
+    /* Workbench */
+    "workbench.colorTheme": "Palenight Theme"
+}
+
