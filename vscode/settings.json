@@ -1,10 +1,63 @@
 {
-    /* Disables all kind of telemetry data */
+    // TELEMETRY
     "telemetry.telemetryLevel": "off",
-    /* Editor */
-    "editor.fontFamily": "'DeJaVu, 'monospace', monospace",
-    "editor.fontSize": 16,
-    /* Workbench */
-    "workbench.colorTheme": "Palenight Theme"
+    // GIT
+    "git.inputValidationSubjectLength": 50,
+    // TERMINAL
+    "terminal.integrated.fontSize": 14,
+    // EDITOR: General
+    "editor.fontSize": 14,
+    "editor.lineHeight": 22,
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.tabCompletion": "on",
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "phase",
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [180],
+    "editor.formatOnSaveMode": "modifications",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+    },
+    // EDITOR: Window
+    "window.title": "${activeEditorLong}${separator}${rootName}",
+    // EDITOR: Breadcrumps
+    "breadcrumbs.enabled": true,
+    // EDITOR: Diffeditor
+    "diffEditor.ignoreTrimWhitespace": false,
+    // EDITOR: Workbench
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#393939",
+        "editorUnnecessaryCode.border": "#dd7aab"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.statusBar.visible": false,
+    "workbench.startupEditor": "none",
+    "workbench.editor.highlightModifiedTabs": true,
+    // LANGUAGE
+    "css.lint.important": "warning",
+    "scss.lint.important": "warning",
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.preferences.importModuleSpecifier": "relative",
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // EXT: Prettier
+    "prettier.useEditorConfig": false,
+    "prettier.requireConfig": false,
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 180,
+    "prettier.singleQuote": true,
+    "prettier.bracketSpacing": false,
+    "prettier.arrowParens": "avoid",
+    // EXT: CSpell
+    "cSpell.enabledLanguageIds": ["css", "html", "javascript", "python", "scss", "typescript"],
+    // EXT: Gitlens
+    "gitlens.plusFeatures.enabled": false,
+    "gitlens.showWelcomeOnInstall": false,
 }
-
